@@ -6,22 +6,20 @@ import { Navbar } from './Navbar';
 
 const Hero = () => (  
   <Background color="white">
-    <Section yPadding="py-6">
-      <Navbar logo={<Logo xl />}>
-        <li>
-          <Link href="/">Instructor</Link>
-        </li>
-        <li>
-          <Link href="/">Price</Link>
-        </li>
-        <li>
-          <Link href="/">Gallery</Link>
-        </li>
-        <li>
-          <Link href="/">Access</Link>
-        </li>
-      </Navbar>
-    </Section>
+    <Navbar logo={<Logo xl />}>
+      <li>
+        <Link href="/">Instructor</Link>
+      </li>
+      <li>
+        <Link href="/">Price</Link>
+      </li>
+      <li>
+        <Link href="/">Gallery</Link>
+      </li>
+      <li>
+        <Link href="/">Access</Link>
+      </li>
+    </Navbar>
 
     {/* FOCUS HERE */}
     <Section yPadding="pt-20 pb-32">

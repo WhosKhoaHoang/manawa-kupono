@@ -6,9 +6,9 @@ type INavbarProps = {
 };
 
 const Navbar = (props: INavbarProps) => (
-  <div className="flex flex-wrap items-center justify-between">
-    <nav>
-      <ul className="navbar flex items-center text-xl font-medium text-brown-100 space-x-10">
+  <div className='navbar'>
+    <nav className='mx-auto max-w-screen-lg pt-5 pb-5 px-3'>
+      <ul className="flex items-center text-xl font-medium text-brown-100 space-x-10">
         {props.children}
       </ul>
     </nav>

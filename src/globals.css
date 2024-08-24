@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.test {
-  background-color: red;
-}
-
 .btn {
   @apply inline-block rounded-md text-center;
 }
@@ -24,4 +20,10 @@
 
 .btn-primary:hover {
   @apply bg-primary-600;
+}
+
+.navbar {
+  position: fixed;
+  background-color: white;
+  width: 100%;
 }
